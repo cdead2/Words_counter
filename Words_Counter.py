@@ -5,9 +5,9 @@ def Counter(word):
         file=file.strip()
         c=file.split(' ')
     if len(c) <=1:
-        return f"The file(Letter) has  {len(c)} word "
+        return huepy.blue(f"The file(Letter) has  {len(c)} word ")
     else:
-        return f"The file(Letter) has  {len(c)} words"
+        return huepy.blue(f"The file(Letter) has  {len(c)} words")
 print(huepy.green("""
 
 1>Choose no 1 for word counter
